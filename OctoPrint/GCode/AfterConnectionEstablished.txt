@@ -1,0 +1,4 @@
+G28 ; Home X Y Z
+G29 ; Auto Bed Leveling
+;G1 X0 Y0 ; go to x0 y0 ; disabled
+G0  X123 Y119 Z10 ; go to middle of bed
