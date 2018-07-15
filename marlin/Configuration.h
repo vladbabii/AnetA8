@@ -326,12 +326,12 @@
 // When temperature exceeds max temp, your heater will be switched off.
 // This feature exists to protect your hotend from overheating accidentally, but *NOT* from thermistor short/failure!
 // You should use MINTEMP for thermistor short/failure protection.
-#define HEATER_0_MAXTEMP 275
+#define HEATER_0_MAXTEMP 260
 #define HEATER_1_MAXTEMP 275
 #define HEATER_2_MAXTEMP 275
 #define HEATER_3_MAXTEMP 275
 #define HEATER_4_MAXTE MP 275
-#define BED_MAXTEMP 130
+#define BED_MAXTEMP 110
 
 //===========================================================================
 //============================= PID Settings ================================
@@ -376,9 +376,9 @@
 //  #define  DEFAULT_Ki 1.25
 //  #define  DEFAULT_Kd 86.0
 
-#define  DEFAULT_Kp 5.44
-#define  DEFAULT_Ki 0.27
-#define  DEFAULT_Kd 26.96
+#define  DEFAULT_Kp 20.09
+#define  DEFAULT_Ki 1.12
+#define  DEFAULT_Kd 90.14
 
 #endif // PIDTEMP
 
@@ -454,8 +454,8 @@
    details can be tuned in Configuration_adv.h
 */
 
-// #define THERMAL_PROTECTION_HOTENDS // Enable thermal protection for all extruders
-// #define THERMAL_PROTECTION_BED     // Enable thermal protection for the heated bed
+#define THERMAL_PROTECTION_HOTENDS // Enable thermal protection for all extruders
+#define THERMAL_PROTECTION_BED     // Enable thermal protection for the heated bed
 
 //===========================================================================
 //============================= Mechanical Settings =========================
