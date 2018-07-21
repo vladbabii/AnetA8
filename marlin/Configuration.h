@@ -694,7 +694,7 @@
         O-- FRONT --+
       (0,0)
 */
-#define X_PROBE_OFFSET_FROM_EXTRUDER 65   // X offset: -left  +right  [of the nozzle]
+#define X_PROBE_OFFSET_FROM_EXTRUDER -38   // X offset: -left  +right  [of the nozzle]
 #define Y_PROBE_OFFSET_FROM_EXTRUDER 0   // Y offset: -front +behind [the nozzle]
 #define Z_PROBE_OFFSET_FROM_EXTRUDER 0   // Z offset: -below +above  [the nozzle]
 
@@ -795,7 +795,7 @@
 #define Y_BED_SIZE 220
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
-#define X_MIN_POS -33
+#define X_MIN_POS -20
 #define Y_MIN_POS -10
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
@@ -925,8 +925,8 @@
 #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
 
 // Set the boundaries for probing (where the probe can reach).
-#define LEFT_PROBE_BED_POSITION 85
-#define RIGHT_PROBE_BED_POSITION 190
+#define LEFT_PROBE_BED_POSITION 45
+#define RIGHT_PROBE_BED_POSITION 150
 #define FRONT_PROBE_BED_POSITION 45
 #define BACK_PROBE_BED_POSITION 170
 
