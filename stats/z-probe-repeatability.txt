@@ -1,0 +1,9 @@
+Command: M49
+
+@ 22 C
+Recv: Mean: -0.449917 Min: -0.479 Max: -0.432 Range: 0.047
+Recv: Standard Deviation: 0.014712
+
+@ 220 C / 65 C
+Recv: Mean: -0.338417 Min: -0.367 Max: -0.327 Range: 0.040
+Recv: Standard Deviation: 0.012831
